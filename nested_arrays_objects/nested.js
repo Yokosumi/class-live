@@ -40,4 +40,12 @@ const heightFridge = fridgeData.filter(
   (fridge) => fridge.dimensions.height >= heightValue
 );
 
-console.log(heightFridge);
+// console.log(heightFridge);
+
+const minFridgeTemperature = 35;
+
+const filteredFridgeTemperature = fridgeData.filter(
+  (fridge) => fridge.temperatureSettings.fridge.min >= minFridgeTemperature
+);
+
+console.log(filteredFridgeTemperature);
