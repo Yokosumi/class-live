@@ -48,4 +48,14 @@ const filteredFridgeTemperature = fridgeData.filter(
   (fridge) => fridge.temperatureSettings.fridge.min >= minFridgeTemperature
 );
 
-console.log(filteredFridgeTemperature);
+// console.log(filteredFridgeTemperature);
+
+const consumptionValue = 150;
+
+const result2 = fridgeData.filter((fridge) => {
+  const watts = fridge.powerConsumption.average;
+  const wattsValue = parseInt(watts.split(" ")[0]);
+  return wattsValue >= consumptionValue;
+});
+
+console.log(result2);
