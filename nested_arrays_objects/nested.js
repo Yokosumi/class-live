@@ -32,4 +32,12 @@ const filteredFridge2 = fridgeData.filter((fridge) =>
   fridge.features.includes(featureValue)
 );
 
-console.log(filteredFridge2);
+// console.log(filteredFridge2);
+
+const heightValue = 72;
+
+const heightFridge = fridgeData.filter(
+  (fridge) => fridge.dimensions.height >= heightValue
+);
+
+console.log(heightFridge);
