@@ -1,5 +1,4 @@
 import fridgeData from "./fridgeData.json" assert { type: "json" };
-console.log(fridgeData[0].manufacturer);
 
 // manufacturer : X             ["samsung", "lg", "whirlpool"]
 // fridges color : X            ["stainless steel", "black", "white"]
@@ -26,3 +25,11 @@ function fridgeFilter(filterKeyword, filterValue) {
 const result = fridgeFilter(filterValue, manufacturerValue);
 
 // console.log(result);
+
+const featureValue = "LED Display";
+
+const filteredFridge2 = fridgeData.filter((fridge) =>
+  fridge.features.includes(featureValue)
+);
+
+console.log(filteredFridge2);
