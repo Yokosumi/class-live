@@ -58,4 +58,12 @@ const result2 = fridgeData.filter((fridge) => {
   return wattsValue <= consumptionValue;
 });
 
-console.log(result2);
+// console.log(result2);
+
+const userReviewValue = "3.5";
+
+const filteredFridgeRatingValue = fridgeData.filter((fridge) => {
+  return fridge.userReviews >= userReviewValue;
+});
+
+console.log(filteredFridgeRatingValue);
