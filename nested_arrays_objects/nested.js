@@ -1,4 +1,5 @@
 import fridgeData from "./fridgeData.json" assert { type: "json" };
+console.log(fridgeData[0].manufacturer);
 
 // manufacturer : X             ["samsung", "lg", "whirlpool"]
 // fridges color : X            ["stainless steel", "black", "white"]
@@ -13,10 +14,15 @@ const manufacturerValue = "LG";
 // );
 
 // console.log(filteredFridgesData);
-const colorValue = "White";
+// const colorValue = "White";
 
-const filteredFridgesData = fridgeData.filter(
-  (fridge) => fridge.color === colorValue
-);
+// console.log(filteredFridgesData);
 
-console.log(filteredFridgesData);
+const filterValue = "manufacturer";
+function fridgeFilter(filterKeyword, filterValue) {
+  return fridgeData.filter((fridge) => fridge[filterKeyword] === filterValue);
+}
+
+const result = fridgeFilter(filterValue, manufacturerValue);
+
+// console.log(result);
