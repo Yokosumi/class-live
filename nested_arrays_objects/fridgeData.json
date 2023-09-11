@@ -1,0 +1,205 @@
+[
+  {
+    "manufacturer": "Samsung",
+    "model": "SmartFridge XYZ",
+    "serialNumber": "ABC123456789",
+    "color": "Stainless Steel",
+    "dimensions": {
+      "height": 70,
+      "width": 36,
+      "depth": 30
+    },
+    "features": [
+      "Smart Display",
+      "Ice Maker",
+      "Water Dispenser",
+      "Adjustable Shelves",
+      "Temperature Control"
+    ],
+    "contents": [
+      "Milk",
+      "Eggs",
+      "Fruits",
+      "Vegetables",
+      "Frozen Pizza",
+      "Ice Cream",
+      "Soda"
+    ],
+    "temperatureSettings": {
+      "fridge": {
+        "min": 34,
+        "max": 40
+      },
+      "freezer": {
+        "min": -10,
+        "max": 0
+      }
+    },
+    "energyEfficiency": "Energy Star Certified",
+    "warranty": {
+      "years": 5,
+      "coverage": ["Compressor", "Parts"]
+    },
+    "isSmartFridge": true,
+    "connectivity": {
+      "wifi": true,
+      "mobileApp": true
+    },
+    "maintenanceSchedule": {
+      "lastServiceDate": "2023-08-15",
+      "nextServiceDate": "2024-02-15"
+    },
+    "powerConsumption": {
+      "average": "150 watts",
+      "annual": "450 kWh"
+    },
+    "userReviews": [
+      {
+        "username": "KitchenMaster",
+        "rating": 4.5,
+        "comment": "Great fridge with lots of space!"
+      },
+      {
+        "username": "HealthyEater",
+        "rating": 5,
+        "comment": "Love the smart features and energy efficiency!"
+      }
+    ],
+    "recommendedAccessories": ["Fridge water filter", "Stainless steel cleaner"]
+  },
+  {
+    "manufacturer": "LG",
+    "model": "SuperCooler 2000",
+    "serialNumber": "XYZ987654321",
+    "color": "White",
+    "dimensions": {
+      "height": 68,
+      "width": 35,
+      "depth": 32
+    },
+    "features": [
+      "LED Display",
+      "Ice Maker",
+      "Water Dispenser",
+      "Adjustable Shelves",
+      "Smart Cooling"
+    ],
+    "contents": [
+      "Milk",
+      "Eggs",
+      "Fruits",
+      "Vegetables",
+      "Frozen Pizza",
+      "Ice Cream",
+      "Soda"
+    ],
+    "temperatureSettings": {
+      "fridge": {
+        "min": 36,
+        "max": 42
+      },
+      "freezer": {
+        "min": -12,
+        "max": -2
+      }
+    },
+    "energyEfficiency": "Energy Star Certified",
+    "warranty": {
+      "years": 7,
+      "coverage": ["Compressor", "Parts"]
+    },
+    "isSmartFridge": true,
+    "connectivity": {
+      "wifi": true,
+      "mobileApp": true
+    },
+    "maintenanceSchedule": {
+      "lastServiceDate": "2023-09-01",
+      "nextServiceDate": "2024-03-01"
+    },
+    "powerConsumption": {
+      "average": "140 watts",
+      "annual": "420 kWh"
+    },
+    "userReviews": [
+      {
+        "username": "CoolGuy",
+        "rating": 4.2,
+        "comment": "Keeps everything super cool!"
+      },
+      {
+        "username": "TechieChef",
+        "rating": 4.8,
+        "comment": "Love the smart features and sleek design!"
+      }
+    ],
+    "recommendedAccessories": ["Fridge water filter", "Shelf organizers"]
+  },
+  {
+    "manufacturer": "Whirlpool",
+    "model": "CoolMaster 3000",
+    "serialNumber": "123XYZ789ABC",
+    "color": "Black",
+    "dimensions": {
+      "height": 72,
+      "width": 38,
+      "depth": 29
+    },
+    "features": [
+      "LED Display",
+      "Ice Maker",
+      "Adjustable Shelves",
+      "FreshLock Technology"
+    ],
+    "contents": [
+      "Milk",
+      "Eggs",
+      "Fruits",
+      "Vegetables",
+      "Frozen Pizza",
+      "Ice Cream",
+      "Soda"
+    ],
+    "temperatureSettings": {
+      "fridge": {
+        "min": 35,
+        "max": 42
+      },
+      "freezer": {
+        "min": -15,
+        "max": -5
+      }
+    },
+    "energyEfficiency": "Energy Star Certified",
+    "warranty": {
+      "years": 4,
+      "coverage": ["Compressor", "Parts"]
+    },
+    "isSmartFridge": false,
+    "connectivity": {
+      "wifi": false,
+      "mobileApp": false
+    },
+    "maintenanceSchedule": {
+      "lastServiceDate": "2023-07-20",
+      "nextServiceDate": "2024-01-20"
+    },
+    "powerConsumption": {
+      "average": "160 watts",
+      "annual": "480 kWh"
+    },
+    "userReviews": [
+      {
+        "username": "Traditionalist",
+        "rating": 3.5,
+        "comment": "Simple and reliable, just what I needed."
+      },
+      {
+        "username": "EcoFriendlyCook",
+        "rating": 4.0,
+        "comment": "Wish it were more energy-efficient, but it gets the job done."
+      }
+    ],
+    "recommendedAccessories": ["Fridge water filter", "Freshness containers"]
+  }
+]
