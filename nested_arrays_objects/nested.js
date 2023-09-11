@@ -7,9 +7,16 @@ import fridgeData from "./fridgeData.json" assert { type: "json" };
 // min temperature im fridge is at least 35
 // average consumption is max 150 watts
 // average rating is 3.5 or higher
+const manufacturerValue = "LG";
+// const filteredFridgesData = fridgeData.filter(
+//   (fridge) => fridge.manufacturer === manufacturerValue
+// );
 
-const manufacturer = fridgeData.filter(
-  (fridge) => fridge.manufacturer === "Samsung"
+// console.log(filteredFridgesData);
+const colorValue = "White";
+
+const filteredFridgesData = fridgeData.filter(
+  (fridge) => fridge.color === colorValue
 );
 
-console.log(manufacturer);
+console.log(filteredFridgesData);
